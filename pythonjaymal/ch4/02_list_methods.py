@@ -1,0 +1,16 @@
+list=["the","for","weather",76,False,"mohan"]
+print(list)
+list.append("Jayant")
+print(list)
+l1=[1,55,23,90,9,76,12]
+l1.sort()
+print(l1)
+l1.reverse()
+print(l1)
+l1.insert(2,.3333333333)
+print(l1)
+value=l1.pop(3)
+print(value)
+print(l1)
+l1.remove(1)
+print(l1)

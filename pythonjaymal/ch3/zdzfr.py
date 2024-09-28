@@ -1,0 +1,12 @@
+a=complex(input(""))
+b=complex(input(""))
+addition =a+b
+subtraction =a-b
+multiplication =a*b
+division =a/b
+exponentiation =a**b
+print(f"a+b= {addition}")
+print(f"a-b= {subtraction}")
+print(f"a*b= {multiplication}")
+print(f"a/b= {division}")
+print(f"a**b= {exponentiation}")

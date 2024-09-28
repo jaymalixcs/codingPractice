@@ -1,0 +1,9 @@
+s1={34,67,1,8.90,76,99,100}
+s2={5,98,99,100,54,12,32,88}
+print(s1.union(s2))
+print(s1.intersection(s2))
+print(len(s1.union(s2)))
+print(len(s1.intersection(s2)))
+print(s1.difference(s2))
+print({1,100}.issubset(s1))
+print(s1.issuperset({1,100}))
